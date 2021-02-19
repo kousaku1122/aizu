@@ -1,6 +1,4 @@
-s = readlines
-s.each  do |string| string.chomp.downcase.split("")
-end
+s = STDIN.read.downcase
 ("a".."z").each do |moji|
   puts "#{moji} : #{s.count(moji)}"
 end

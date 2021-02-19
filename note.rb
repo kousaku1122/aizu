@@ -79,3 +79,6 @@ ans.each{|row| puts row.join(" ")} #配列output
 
 #オブジェクト化 split 数字変換 配列足し算
 to_s.split("").map(&:to_i).inject(:+)
+
+#複数行入力
+STDIN.read
