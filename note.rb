@@ -85,3 +85,6 @@ STDIN.read
 
 #文字検索
 .index()
+
+#配列
+n.push(*n.shift(gets.to_i)) #先頭を後ろにくっつける*で[]にならない
