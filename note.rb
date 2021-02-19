@@ -82,3 +82,6 @@ to_s.split("").map(&:to_i).inject(:+)
 
 #複数行入力
 STDIN.read
+
+#文字検索
+.index()
