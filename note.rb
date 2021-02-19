@@ -88,3 +88,6 @@ STDIN.read
 
 #配列
 n.push(*n.shift(gets.to_i)) #先頭を後ろにくっつける*で[]にならない
+
+#1文字ずつ入力
+str = gets.chomp.split(//)
