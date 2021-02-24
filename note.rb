@@ -91,3 +91,9 @@ n.push(*n.shift(gets.to_i)) #先頭を後ろにくっつける*で[]にならな
 
 #1文字ずつ入力
 str = gets.chomp.split(//)
+
+(0...100).step(2){ |i| #2ずつ進む
+}
+
+#べき乗計算,式の周期を考える
+a.pow(b.pow(c))
