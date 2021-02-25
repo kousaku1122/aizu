@@ -3,6 +3,7 @@ puts gets.to_i ** 3
 
 #split空白区切りmap数字読み込み
 a, b = gets.split(" ").map(&:to_i)
+to_f #小数
 
 #変数の扱い
 puts "#{a}"
@@ -97,3 +98,10 @@ str = gets.chomp.split(//)
 
 #べき乗計算,式の周期を考える
 a.pow(b.pow(c))
+
+#2乗の和
+Math.hypot(x, y)
+
+#三角関数
+c = c/ 180 * Math::PI
+Math.sin(c)
