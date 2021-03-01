@@ -105,3 +105,9 @@ Math.hypot(x, y)
 #三角関数
 c = c/ 180 * Math::PI
 Math.sin(c)
+
+#平方根、切り上げ
+Math.sqrt(n).ceil
+
+#重複取り除いた大きさ
+uniq.size
